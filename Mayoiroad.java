@@ -1,9 +1,8 @@
 import java.math.BigInteger;
 import java.util.ArrayList;
 import java.util.List;
-/*
- * テストのコードを通常のコードに置き換えました。
- */
+
+
 public class Mayoiroad {
 	public static void main(String[] args) {
 		// int n に試行回数を設定する
@@ -12,7 +11,6 @@ public class Mayoiroad {
 		//int n = Integer.MAX_VALUE; => OutOfMemoryError
 
 		if (n <= 0) {
-            //return "0";
 			System.out.println(0);
         }
 
@@ -25,10 +23,8 @@ public class Mayoiroad {
 		List<BigInteger> list = new ArrayList<>();
 
         if (n == 2) {
-            //return "2";
         	System.out.println(2);
         } else if (n == 4) {
-        	//return "7";
         	System.out.println(7);
         }
 
